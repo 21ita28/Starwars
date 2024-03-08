@@ -5,7 +5,7 @@ function Starships() {
 	const [isLoading, setLoading] = useState(true);
 	const [starWarsDataStarships, setStarWarsDataStarships] = useState();
 	const [urlStarships, setUrlStarships] = useState(
-		`https://swapi.dev/api/starships/?page=1`
+		`https://swapi.py4e.com/api/starships/?page=1`
 	);
 
 	useEffect(() => {
