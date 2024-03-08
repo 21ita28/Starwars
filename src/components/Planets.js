@@ -4,7 +4,7 @@ function Planets() {
 	const [isLoading, setLoading] = useState(true);
 	const [starWarsDataPlanets, setStarWarsDataPlanets] = useState();
 	const [urlPlanets, setUrlPlanets] = useState(
-		`https://swapi.dev/api/planets/?page=1`
+		`https://swapi.py4e.com/api/planets/?page=1`
 	);
 
 	useEffect(() => {
