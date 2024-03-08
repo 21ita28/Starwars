@@ -5,7 +5,7 @@ function People() {
 	const [isLoading, setLoading] = useState(true);
 	const [starWarsDataPeople, setStarWarsDataPeople] = useState();
 	const [urlPeople, setUrlPeople] = useState(
-		`https://swapi.dev/api/people/?page=1`
+		`https://swapi.py4e.com/api/people/?page=1`
 	);
 
 	useEffect(() => {
