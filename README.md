@@ -1,2 +1,2 @@
-# Delpoyment and Live Preview 
+# Deployment and Live Preview 
 https://starwars-self.vercel.app/
